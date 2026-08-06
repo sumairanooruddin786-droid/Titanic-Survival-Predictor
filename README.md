@@ -61,20 +61,20 @@ Follow these steps to set up and run the project locally on your system.
 
 1. Clone the Repository
 
-```git clone [https://github.com/sumairanooruddin786-droid/Titanic-Survival-Predictor.git](https://github.com/sumairanooruddin786-droid/Titanic-Survival-Predictor.git)
-cd Titanic-Survival-Predictor```
+```git clone [https://github.com/sumairanooruddin786-droid/Titanic-Survival-Predictor.git](https://github.com/sumairanooruddin786-droid/Titanic-Survival-Predictor.git)```
+```cd Titanic-Survival-Predictor```
 
 2. Install Required Dependencies
 Make sure you have Python installed. Install the required libraries using ```pip```:
 ```pip install fastapi uvicorn pandas scikit-learn joblib jinja2 python-multipart```
 
-## `📊 Model Training
+## 📊 Model Training
 To retrain or generate the ```titanic_model.pkl``` file, run the model training script:
 ```python train_model.py``
 
 This script will:
 
-Handle missing values for ``Age```, ```Fare```, and ```Embarked```.
+Handle missing values for ```Age```, ```Fare```, and ```Embarked```.
 
 Convert categorical features (```Sex```, ```Embarked```) into numerical format.
 
